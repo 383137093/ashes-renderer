@@ -1,0 +1,33 @@
+{
+  "lights": [
+    {
+      "comment": "环境光",
+      "type": "ambient",
+      "color": [ 1, 1, 1 ],
+      "intensity": 0.75
+    },
+    {
+      "comment": "顶光",
+      "type": "directional",
+      "color": [ 1, 1, 1 ],
+      "intensity": 1.25,
+      "direction": [ 0, -1, 0 ]
+    }
+  ],
+  "cameras": [
+    {
+      "position": [ 775, 1030, -35 ],
+      "look": [ -0.795, -0.607, 0 ]
+    },
+    {
+      "position": [ 1207, 348, -32 ],
+      "look": [ -0.98, -0.2, 0 ]
+    }
+  ],
+  "config": {
+    "camera": 0,
+    "tex_filter": "LINEAR_MIP_POINT",
+    "shadow_resolution_scale": 1.0,
+    "shadow_filter": "Point"
+  }
+}

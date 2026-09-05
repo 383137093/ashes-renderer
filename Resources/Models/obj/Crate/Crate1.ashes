@@ -1,0 +1,44 @@
+﻿{
+  "lights": [
+    {
+      "comment": "环境光",
+      "type": "ambient",
+      "color": [ 1, 1, 1 ],
+      "intensity": 0.15
+    },
+    {
+      "comment": "主光 Key Light — 暖色，左上前方 45°",
+      "type": "directional",
+      "color": [ 1.0, 0.95, 0.85 ],
+      "intensity": 2.0,
+      "direction": [ 0.5, -0.707, -0.5 ]
+    },
+    {
+      "comment": "补光 Fill Light — 冷色，右侧，减少死黑",
+      "type": "directional",
+      "color": [ 0.8, 0.9, 1.0 ],
+      "intensity": 0.6,
+      "direction": [ -0.707, -0.3, -0.64 ]
+    },
+    {
+      "comment": "背光 Rim Light — 从背后打轮廓",
+      "type": "directional",
+      "color": [ 1, 1, 1 ],
+      "intensity": 1.0,
+      "direction": [ 0, -0.3, 0.954 ]
+    }
+  ],
+  "cameras": [
+    {
+      "position": [ 0, 5, 10 ],
+      "look": [ 0, -0.5, -1 ]
+    }
+  ],
+  "config": {
+    "floor_visibility": true,
+    "camera": 0,
+    "shadow_resolution_scale": 2.0,
+    "shadow_filter": "Point",
+    "ecsaa": true
+  }
+}
