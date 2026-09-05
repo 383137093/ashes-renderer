@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux (Debug)",
+            "includePath": ["${workspaceFolder}/../../Source"],
+            "defines": [],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "Linux (Release)",
+            "includePath": ["${workspaceFolder}/../../Source"],
+            "defines": ["NDEBUG"],
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

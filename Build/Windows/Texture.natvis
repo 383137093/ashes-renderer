@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+
+  <!-- copy this file to "%USERPROFILE%\Documents\Visual Studio 2019\Visualizers" -->
+  <!-- see document https://imagewatch.azurewebsites.net/ImageWatchHelp/ImageWatchHelp.htm#_Toc351981452 -->
+
+  <UIVisualizer ServiceId="{A452AFEA-3DF6-46BB-9177-C0B08F318025}" Id="1" MenuName="Add to Image Watch"/>
+
+  <Type Name="Ashes::TextureMipMap">
+    <UIVisualizer ServiceId="{A452AFEA-3DF6-46BB-9177-C0B08F318025}" Id="1"/>
+  </Type>
+    
+  <Type Name="Ashes::TextureMipMap">
+    <Expand>
+      <Synthetic Name="[type]">
+        <DisplayString Condition="format == 0">FLOAT32</DisplayString>
+        <DisplayString Condition="format == 1">FLOAT32</DisplayString>
+        <DisplayString Condition="format == 2">FLOAT32</DisplayString>
+        <DisplayString Condition="format == 3">FLOAT32</DisplayString>
+        <DisplayString Condition="format == 4">UINT8</DisplayString>
+        <DisplayString Condition="format == 5">UINT8</DisplayString>
+        <DisplayString Condition="format == 6">UINT8</DisplayString>
+        <DisplayString Condition="format == 7">UINT8</DisplayString>
+      </Synthetic>
+      <Synthetic Name="[channels]">
+        <DisplayString Condition="format == 0">1</DisplayString>
+        <DisplayString Condition="format == 1">RG</DisplayString>
+        <DisplayString Condition="format == 2">RGB</DisplayString>
+        <DisplayString Condition="format == 3">RGBA</DisplayString>
+        <DisplayString Condition="format == 4">1</DisplayString>
+        <DisplayString Condition="format == 5">RG</DisplayString>
+        <DisplayString Condition="format == 6">RGB</DisplayString>
+        <DisplayString Condition="format == 7">RGBA</DisplayString>
+      </Synthetic>
+      <Item Name="[width]">cols</Item>
+      <Item Name="[height]">rows</Item>
+      <Item Name="[data]">texels._Mypair._Myval2._Myfirst</Item>
+      <Item Condition="format == 0" Name="[stride]">cols * 1 * 4</Item>
+      <Item Condition="format == 1" Name="[stride]">cols * 2 * 4</Item>
+      <Item Condition="format == 2" Name="[stride]">cols * 3 * 4</Item>
+      <Item Condition="format == 3" Name="[stride]">cols * 4 * 4</Item>
+      <Item Condition="format == 4" Name="[stride]">cols * 1</Item>
+      <Item Condition="format == 5" Name="[stride]">cols * 2</Item>
+      <Item Condition="format == 6" Name="[stride]">cols * 3</Item>
+      <Item Condition="format == 7" Name="[stride]">cols * 4</Item>
+    </Expand>
+  </Type>
+
+</AutoVisualizer>

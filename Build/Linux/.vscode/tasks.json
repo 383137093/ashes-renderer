@@ -1,0 +1,32 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "BuildAshesRenderer (Debug)",
+            "command": "make",
+            "args": ["debug", "-j$(nproc)"],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Incremental debug build via Makefile."
+        },
+        {
+            "type": "shell",
+            "label": "BuildAshesRenderer (Release)",
+            "command": "make",
+            "args": ["release", "-j$(nproc)"],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$gcc"],
+            "group": "build",
+            "detail": "Incremental release build via Makefile (max optimization)."
+        }
+    ],
+    "version": "2.0.0"
+}

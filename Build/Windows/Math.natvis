@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+
+  <!-- Ashes::Vector2 -->
+  <Type Name="Ashes::Vector&lt;*,2&gt;">
+      <DisplayString>{{{coeffs[0]}, {coeffs[1]}}}</DisplayString>
+  </Type>
+  
+  <!-- Ashes::Vector3 -->
+  <Type Name="Ashes::Vector&lt;*,3&gt;">
+      <DisplayString>{{{coeffs[0]}, {coeffs[1]}, {coeffs[2]}}}</DisplayString>
+  </Type>
+  
+  <!-- Ashes::Vector4 -->
+  <Type Name="Ashes::Vector&lt;*,4&gt;">
+      <DisplayString>{{{coeffs[0]}, {coeffs[1]}, {coeffs[2]}, {coeffs[3]}}}</DisplayString>
+  </Type>
+  
+  <!-- Ashes::Matrix3 -->
+  <Type Name="Ashes::Matrix&lt;*,3,3&gt;">
+      <DisplayString>{storage_.coeffs}</DisplayString>
+      <Expand>
+        <Synthetic Name="[Row0]">
+          <DisplayString>{{{storage_.coeffs[0]}, {storage_.coeffs[1]}, {storage_.coeffs[2]}}}</DisplayString>
+        </Synthetic>
+        <Synthetic Name="[Row1]">
+          <DisplayString>{{{storage_.coeffs[3]}, {storage_.coeffs[4]}, {storage_.coeffs[5]}}}</DisplayString>
+        </Synthetic>
+        <Synthetic Name="[Row2]">
+          <DisplayString>{{{storage_.coeffs[6]}, {storage_.coeffs[7]}, {storage_.coeffs[8]}}}</DisplayString>
+        </Synthetic>
+      </Expand>
+  </Type>
+  
+  <!-- Ashes::Matrix4 -->
+  <Type Name="Ashes::Matrix&lt;*,4,4&gt;">
+      <DisplayString>{storage_.coeffs}</DisplayString>
+      <Expand>
+        <Synthetic Name="[Row0]">
+          <DisplayString>{{{storage_.coeffs[0]}, {storage_.coeffs[1]}, {storage_.coeffs[2]}, {storage_.coeffs[3]}}}</DisplayString>
+        </Synthetic>
+        <Synthetic Name="[Row1]">
+          <DisplayString>{{{storage_.coeffs[4]}, {storage_.coeffs[5]}, {storage_.coeffs[6]}, {storage_.coeffs[7]}}}</DisplayString>
+        </Synthetic>
+        <Synthetic Name="[Row2]">
+          <DisplayString>{{{storage_.coeffs[8]}, {storage_.coeffs[9]}, {storage_.coeffs[10]}, {storage_.coeffs[11]}}}</DisplayString>
+        </Synthetic>
+        <Synthetic Name="[Row3]">
+          <DisplayString>{{{storage_.coeffs[12]}, {storage_.coeffs[13]}, {storage_.coeffs[14]}, {storage_.coeffs[15]}}}</DisplayString>
+        </Synthetic>
+      </Expand>
+  </Type>
+  
+</AutoVisualizer>

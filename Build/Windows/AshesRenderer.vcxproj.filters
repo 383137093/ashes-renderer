@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Asset">
+      <UniqueIdentifier>{54eefcf5-2cd3-4953-bcea-adc57dbc6a85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{745bf14b-5921-4c7b-af0c-559ad711fa19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{558c4264-3bc5-40fc-b2d0-7bc8780979de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Parser">
+      <UniqueIdentifier>{af29f90d-f772-474d-b25a-6a8abffb4237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Platform">
+      <UniqueIdentifier>{c3176e71-0d87-4437-8ed6-1707f2abebaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rasterize">
+      <UniqueIdentifier>{77986694-2f80-4d4e-98d1-0ada7e882d21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ThirdParty">
+      <UniqueIdentifier>{430b1ddf-aef8-441d-9560-70defd100b35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{fecdc43f-4ce6-4950-b6c4-8cb3e0d8b411}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Asset\Camera.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Asset\Light.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Asset\Material.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Asset\Mesh.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Asset\Object3D.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Asset\Skeleton.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Asset\Texture.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Asset\Animation.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Geometry\Clipping.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Geometry\Frustum.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Geometry\AxisAlignedBox.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Math\Transform.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Parser\GltfParser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Parser\AshesParser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Parser\ObjParser.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Parser\Base64.cpp">
+      <Filter>Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\GenericWindow_Windows.cpp">
+      <Filter>Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Rasterize\RenderEngine.cpp">
+      <Filter>Rasterize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Rasterize\Renderer.cpp">
+      <Filter>Rasterize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Rasterize\Scene.cpp">
+      <Filter>Rasterize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Rasterize\Shader.cpp">
+      <Filter>Rasterize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Rasterize\FrameBuffer.cpp">
+      <Filter>Rasterize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Rasterize\RenderApp.cpp">
+      <Filter>Rasterize</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Main.cpp" />
+    <ClCompile Include="..\..\Source\Asset\CubeTexture.cpp">
+      <Filter>Asset</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Asset\Camera.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Asset\Light.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Asset\Material.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Asset\Mesh.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Asset\Movie.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Asset\Object3D.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Asset\Skeleton.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Asset\Texture.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Asset\Animation.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Asset\AssetContent.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Geometry\Clipping.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Geometry\Frustum.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Geometry\Triangle.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Geometry\AxisAlignedBox.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Math\MathMisc.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Math\Matrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Math\Quaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Math\Transform.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Math\ValueRange.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Math\Vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Math\ColorMisc.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Parser\GltfParser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Parser\JsonProxy.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Parser\AshesParser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Parser\ObjParser.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Parser\Base64.h">
+      <Filter>Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Platform\GenericWindow.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Platform\GenericMenuParams.h">
+      <Filter>Platform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Rasterize\RenderEngine.h">
+      <Filter>Rasterize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Rasterize\Renderer.h">
+      <Filter>Rasterize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Rasterize\Scene.h">
+      <Filter>Rasterize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Rasterize\Shader.h">
+      <Filter>Rasterize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Rasterize\FrameBuffer.h">
+      <Filter>Rasterize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Rasterize\RenderApp.h">
+      <Filter>Rasterize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ThirdParty\stb_image.h">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ThirdParty\json.hpp">
+      <Filter>ThirdParty</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utility\StringAlgo.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utility\ThreadPool.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utility\UtilityMisc.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Utility\SpinLock.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Rasterize\RenderConfig.h">
+      <Filter>Rasterize</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Asset\CubeTexture.h">
+      <Filter>Asset</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Natvis Include="Math.natvis" />
+    <Natvis Include="Texture.natvis" />
+  </ItemGroup>
+</Project>
