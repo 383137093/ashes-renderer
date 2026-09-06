@@ -1,0 +1,8 @@
+{
+  "config": {
+    "ibl_directory": "./Resources/Envirs/je_gray",
+    "camera": "Front",
+    "msaa": true,
+    "aces": true
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "lights": [
+    {
+      "comment": "环境光",
+      "type": "ambient",
+      "color": [ 1.0, 1.0, 1.0 ],
+      "intensity": 0.5
+    },
+    {
+      "comment": "主光 Key Light，左上前方 45°",
+      "type": "directional",
+      "color": [ 1.0, 1.0, 1.0 ],
+      "intensity": 1.0,
+      "direction": [ 0.5, -0.707, -0.5 ]
+    }
+  ],
+  "cameras": [
+    {
+      "position": [ -3.5558, 0.8241, -0.1148 ],
+      "look": [ 0.9554, -0.2951, -0.0091 ]
+    }
+  ],
+  "config": {
+    "ibl_directory": "./Resources/Envirs/puresky_drackenstein_quarry",
+    "camera": 0,
+    "tex_filter": "LINEAR_MIP_POINT",
+    "oit": true,
+    "aces": true
+  }
+}

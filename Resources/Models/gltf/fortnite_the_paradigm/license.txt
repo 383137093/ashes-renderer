@@ -1,0 +1,11 @@
+Model Information:
+* title:	Fortnite - The Paradigm
+* source:	https://sketchfab.com/3d-models/fortnite-the-paradigm-a156e39a7559435e84a4bbce32a8428f
+* author:	Goldermor (https://sketchfab.com/goldermor)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Fortnite - The Paradigm" (https://sketchfab.com/3d-models/fortnite-the-paradigm-a156e39a7559435e84a4bbce32a8428f) by Goldermor (https://sketchfab.com/goldermor) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

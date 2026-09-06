@@ -1,0 +1,30 @@
+{
+  "lights": [
+    {
+      "comment": "环境光",
+      "type": "ambient",
+      "color": [ 1.0, 1.0, 1.0 ],
+      "intensity": 1.0
+    },
+    {
+      "comment": "主光 Key Light，左上前方 45°",
+      "type": "directional",
+      "color": [ 1.0, 1.0, 1.0 ],
+      "intensity": 1.5,
+      "direction": [ 0.5, -0.707, -0.5 ]
+    }
+  ],
+  "cameras": [
+    {
+      "position": [ 0, 0.45, -0.75 ],
+      "look": [ 0, -0.259, 0.966 ]
+    }
+  ],
+  "config": {
+    "ibl_directory": "./Resources/Envirs/puresky_kloppenheim",
+    "ibl_specular_scale": 0.25,
+    "camera": 0,
+    "tex_filter": "LINEAR_MIP_POINT",
+    "aces": true
+  }
+}
