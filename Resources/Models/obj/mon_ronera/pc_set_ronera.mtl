@@ -9,6 +9,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
+map_Ka 2025winterronera_hair.png
 map_Kd 2025winterronera_hair.png
 
 newmtl Object_1_p_2
@@ -19,6 +20,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
+map_Ka 2025winterronera_body.png
 map_Kd 2025winterronera_body.png
 
 newmtl Object_1_p_3
@@ -29,6 +31,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
+map_Ka 2025winterronera_body.png
 map_Kd 2025winterronera_body.png
 
 newmtl Object_2_p_1
@@ -39,6 +42,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
+map_Ka Ronera_face.png
 map_Kd Ronera_face.png
 
 newmtl Object_2_p_2
@@ -49,6 +53,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
+map_Ka Ronera_face.png
 map_Kd Ronera_face.png
 
 newmtl Object_5
@@ -59,4 +64,5 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.450000
 d 1.000000
 illum 1
-map_Kd mon_ronera/new_tooth.bmp
+map_Ka new_tooth.bmp
+map_Kd new_tooth.bmp
